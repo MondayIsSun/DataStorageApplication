@@ -2,8 +2,6 @@ package mr.lmd.personal.sqlitemodule;
 
 import android.app.Application;
 import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
-import android.graphics.Point;
 import android.test.ApplicationTestCase;
 import android.util.Log;
 

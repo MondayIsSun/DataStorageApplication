@@ -5,7 +5,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.database.sqlite.SQLiteDatabase.CursorFactory;
 
 public class DBHelper extends SQLiteOpenHelper {
 
@@ -21,7 +20,9 @@ public class DBHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "Create table " + TABLE_NAME + "(" + FIELD_ID + " integer primary key autoincrement," + FIELD_TITLE + " text );";
+        String sql = "Create table " + TABLE_NAME + "("
+                + FIELD_ID + " integer primary key autoincrement,"
+                + FIELD_TITLE + " text );";
         db.execSQL(sql);
     }
 
