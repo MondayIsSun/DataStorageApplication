@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EditText1"
+        android:layout_width="292px"
+        android:layout_height="wrap_content"
+        android:layout_x="11px"
+        android:layout_y="10px"
+        android:text="EditText"
+        android:textSize="18sp">
+
+    </EditText>
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="12px"
+        android:layout_y="69px">
+
+    </ListView>
+
+</android.support.design.widget.CoordinatorLayout>

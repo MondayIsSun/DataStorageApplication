@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQLiteModule</string>
+    <string name="action_settings">Settings</string>
+    <string name="ADD">新增</string>
+    <string name="EDIT">修改</string>
+    <string name="DELETE">删除</string>
+</resources>
